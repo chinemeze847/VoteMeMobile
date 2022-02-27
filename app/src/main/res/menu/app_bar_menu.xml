@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:title="setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="favorite"
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Others"
+        android:id="@+id/other"
+        app:showAsAction="never"
+        />
+
+
+</menu>
